@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EczaneKapidaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Hasta">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TCKN" Type="nvarchar" MaxLength="50" />
+    <Property Name="OlusturmaTarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Ilac">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="150" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+    <Property Name="Fiyat" Type="money" />
+    <Property Name="KargoFiyati" Type="money" />
+    <Property Name="OlusturmaTarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Recete">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DoktorId" Type="int" />
+    <Property Name="IlacId" Type="int" />
+    <Property Name="HastaId" Type="int" />
+    <Property Name="Adet" Type="int" />
+    <Property Name="SepettekiAdet" Type="int" />
+    <Property Name="AlinanAdet" Type="int" />
+    <Property Name="OlusturmaTarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Sepet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HastaId" Type="int" Nullable="false" />
+    <Property Name="ReceteId" Type="int" />
+    <Property Name="IlacId" Type="int" />
+    <Property Name="UrunAdet" Type="int" />
+    <Property Name="OlusturmaTarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Siparis">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SiparisNo" Type="int" />
+    <Property Name="HastaId" Type="int" />
+    <Property Name="ToplamTutar" Type="money" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Soyad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Gsm" Type="nvarchar" MaxLength="50" />
+    <Property Name="Tc" Type="nvarchar" MaxLength="50" />
+    <Property Name="Adres" Type="nvarchar" MaxLength="150" />
+    <Property Name="Il" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ilce" Type="nvarchar" MaxLength="50" />
+    <Property Name="VergiDairesi" Type="nvarchar" MaxLength="100" />
+    <Property Name="PostaKodu" Type="nvarchar" MaxLength="50" />
+    <Property Name="OdemeTipi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="OlusturmaTarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="SiparisDetay">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SiparisId" Type="int" Nullable="false" />
+    <Property Name="ReceteId" Type="int" />
+    <Property Name="IlacId" Type="int" Nullable="false" />
+    <Property Name="SiparisDurumu" Type="nvarchar" MaxLength="100" />
+    <Property Name="UrunFiyat" Type="money" />
+    <Property Name="UrunKargo" Type="money" />
+    <Property Name="UrunAdet" Type="int" />
+    <Property Name="UrunToplam" Type="money" />
+    <Property Name="OlusturmaTarihi" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Yonetici">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KullaniciAdi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Sifre" Type="nvarchar" MaxLength="50" />
+    <Property Name="Yetki" Type="bit" />
+    <Property Name="Durum" Type="bit" />
+  </EntityType>
+  <Association Name="FK_Recete_Hasta">
+    <End Role="Hasta" Type="Self.Hasta" Multiplicity="0..1" />
+    <End Role="Recete" Type="Self.Recete" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Hasta">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Recete">
+        <PropertyRef Name="HastaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Recete_Ilac">
+    <End Role="Ilac" Type="Self.Ilac" Multiplicity="0..1" />
+    <End Role="Recete" Type="Self.Recete" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ilac">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Recete">
+        <PropertyRef Name="IlacId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Recete_Yonetici">
+    <End Role="Yonetici" Type="Self.Yonetici" Multiplicity="0..1" />
+    <End Role="Recete" Type="Self.Recete" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Yonetici">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Recete">
+        <PropertyRef Name="DoktorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sepet_Hasta">
+    <End Role="Hasta" Type="Self.Hasta" Multiplicity="1" />
+    <End Role="Sepet" Type="Self.Sepet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Hasta">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sepet">
+        <PropertyRef Name="HastaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sepet_Recete">
+    <End Role="Recete" Type="Self.Recete" Multiplicity="0..1" />
+    <End Role="Sepet" Type="Self.Sepet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Recete">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sepet">
+        <PropertyRef Name="ReceteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Siparis_Hasta">
+    <End Role="Hasta" Type="Self.Hasta" Multiplicity="0..1" />
+    <End Role="Siparis" Type="Self.Siparis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Hasta">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Siparis">
+        <PropertyRef Name="HastaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SiparisDetay_Siparis">
+    <End Role="Siparis" Type="Self.Siparis" Multiplicity="1" />
+    <End Role="SiparisDetay" Type="Self.SiparisDetay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Siparis">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SiparisDetay">
+        <PropertyRef Name="SiparisId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EczaneKapidaModelStoreContainer">
+    <EntitySet Name="Hasta" EntityType="Self.Hasta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ilac" EntityType="Self.Ilac" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Recete" EntityType="Self.Recete" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sepet" EntityType="Self.Sepet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Siparis" EntityType="Self.Siparis" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SiparisDetay" EntityType="Self.SiparisDetay" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Yonetici" EntityType="Self.Yonetici" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Recete_Hasta" Association="Self.FK_Recete_Hasta">
+      <End Role="Hasta" EntitySet="Hasta" />
+      <End Role="Recete" EntitySet="Recete" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Recete_Ilac" Association="Self.FK_Recete_Ilac">
+      <End Role="Ilac" EntitySet="Ilac" />
+      <End Role="Recete" EntitySet="Recete" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Recete_Yonetici" Association="Self.FK_Recete_Yonetici">
+      <End Role="Yonetici" EntitySet="Yonetici" />
+      <End Role="Recete" EntitySet="Recete" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sepet_Hasta" Association="Self.FK_Sepet_Hasta">
+      <End Role="Hasta" EntitySet="Hasta" />
+      <End Role="Sepet" EntitySet="Sepet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sepet_Recete" Association="Self.FK_Sepet_Recete">
+      <End Role="Recete" EntitySet="Recete" />
+      <End Role="Sepet" EntitySet="Sepet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Siparis_Hasta" Association="Self.FK_Siparis_Hasta">
+      <End Role="Hasta" EntitySet="Hasta" />
+      <End Role="Siparis" EntitySet="Siparis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SiparisDetay_Siparis" Association="Self.FK_SiparisDetay_Siparis">
+      <End Role="Siparis" EntitySet="Siparis" />
+      <End Role="SiparisDetay" EntitySet="SiparisDetay" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

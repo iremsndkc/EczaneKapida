@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bceef3cedd9e49fe8f1331161c3efd91" Name="Diagram1">
+        <EntityTypeShape EntityType="EczaneKapidaModel.Hasta" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EczaneKapidaModel.Ilac" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="EczaneKapidaModel.Yonetici" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EczaneKapidaModel.Sepet" Width="1.5" PointX="5.25" PointY="4.5" />
+        <AssociationConnector Association="EczaneKapidaModel.FK_Sepet_Hasta" />
+        <EntityTypeShape EntityType="EczaneKapidaModel.SiparisDetay" Width="1.5" PointX="9.75" PointY="4.625" />
+        <EntityTypeShape EntityType="EczaneKapidaModel.Siparis" Width="1.5" PointX="3" PointY="8.375" />
+        <AssociationConnector Association="EczaneKapidaModel.FK_Siparis_Hasta" />
+        <AssociationConnector Association="EczaneKapidaModel.FK_SiparisDetay_Siparis" />
+        <EntityTypeShape EntityType="EczaneKapidaModel.Recete" Width="1.5" PointX="3" PointY="4" />
+        <AssociationConnector Association="EczaneKapidaModel.FK_Recete_Hasta" />
+        <AssociationConnector Association="EczaneKapidaModel.FK_Recete_Ilac" />
+        <AssociationConnector Association="EczaneKapidaModel.FK_Recete_Yonetici" />
+        <AssociationConnector Association="EczaneKapidaModel.FK_Sepet_Recete" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

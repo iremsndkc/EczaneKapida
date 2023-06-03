@@ -1,0 +1,635 @@
+﻿body {
+    font-family: 'Open Sans', sans-serif;
+    background: #fafafa;
+}
+
+.top {
+    width: 100%;
+    min-width: 980px;
+    height: 100px;
+    position: relative;
+    background: repeat-x url(../img/top.png);
+    -webkit-box-shadow: 1px 1px 5px 0 rgba(00,00,00,.3);
+    box-shadow: 1px 1px 5px 0 rgba(00,00,00,.3);
+}
+
+.tel-no {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    font-size: 22px;
+    letter-spacing: -.5px;
+}
+
+.wrap {
+    width: 980px;
+    margin: auto;
+}
+
+.logo {
+    /*margin-top: 15px;*/
+}
+
+.uye-islem li {
+    list-style: none;
+    display: inline;
+    line-height: 85px;
+    padding: 0 17px;
+    border-left: 1px solid silver;
+}
+
+    .uye-islem li a {
+        font-family: Arial;
+        font-weight: bold;
+        color: #e30613;
+        font-size: 16px;
+    }
+
+.urun-adet {
+    color: #1c386c;
+}
+
+.top .pull-left .input-group {
+    margin-top: 23px;
+    width: 330px;
+    margin-left: 30px;
+}
+
+.top .pull-left .form-control {
+    height: 40px;
+}
+
+.top .pull-left .input-group .btn-default {
+    background: #e30613 !important;
+    color: #fff !important;
+    font-size: 14px;
+    height: 40px;
+    font-weight: bold;
+    outline: none;
+}
+
+.slide-area {
+    margin-top: -10px;
+}
+
+    .slide-area h3 {
+        color: #e30613;
+        font-weight: 600;
+    }
+
+.shadow {
+    width: 250px;
+    height: 11px;
+    background: no-repeat url(../img/shadow.png);
+}
+
+.ribbon {
+    width: 45px;
+    height: 52px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: #fff;
+    float: right;
+    text-align: center;
+    background: no-repeat url(../img/ribbon.png);
+}
+
+.gunun-firsati-urun {
+    height: 130px;
+    text-align: center;
+}
+
+    .gunun-firsati-urun img {
+        max-height: 130px;
+    }
+
+.gunun .button {
+    position: absolute;
+    bottom: 37px;
+    margin-left: 28px;
+}
+
+
+.gunun-firsati-price {
+    color: #e30613;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.button {
+    width: 144px;
+    height: 35px;
+    line-height: 35px;
+    margin: auto;
+    background: no-repeat url(../img/button.png);
+}
+
+    .button a {
+        font-weight: 600;
+        color: #fff;
+    }
+
+        .button a:hover {
+            text-decoration: none;
+            color: #1d1c1c;
+        }
+
+.kategoriler {
+    width: 231px;
+    height: auto;
+    background: #fff;
+    border: 1px solid #cacaca;
+}
+
+.baslik {
+    width: 231px;
+    height: 46px;
+    letter-spacing: -.60px;
+    background: no-repeat url(../img/kategori-bg.png);
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    padding: 5px 0 0 5px;
+}
+
+.kategori {
+    padding: 0 10px;
+}
+
+    .kategori li {
+        list-style: none;
+        cursor: pointer;
+        line-height: 30px;
+        border-bottom: dotted 1px #cacaca;
+    }
+
+        .kategori li a {
+            color: #666666;
+            font-size: 12px;
+        }
+
+.banners {
+    margin-top: 15px;
+    /*border: 1px solid #bbbbbb;*/
+    width: 230px;
+    overflow:hidden;
+}
+.banners img {
+    width:230px;
+    height:160px;
+    transition: all .2s ease-in-out;
+}
+
+/*.banners:hover img {
+    transform: scale(1.02);
+}*/
+
+.alt-bas {
+    font-size: 22px;
+    font-weight: 600;
+    color: #e30613;
+}
+
+.urunler {
+    padding: 0;
+    margin-left: -10px;
+    width: 495px;
+}
+
+    .urunler li {
+        list-style: none;
+        display: inline;
+        float: left;
+        margin-left: 13px;
+        margin-bottom: 13px;
+    }
+
+.urun-box {
+    width: 150px;
+    height: 200px;
+    background: #fff;
+    border: 1px solid #cacaca;
+    text-align: center;
+}
+
+.urun-resim {
+    padding-top: 5px;
+    height: 120px;
+}
+
+    .urun-resim img {
+        max-height: 120px;
+        max-width: 120px;
+    }
+
+.urun-box-isim {
+    font-size: 12px;
+    letter-spacing: -.50px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.urun-box-fiyat {
+    font-size: 16px;
+    font-weight: 600;
+    color: #e30613;
+    margin-top:-5px;
+}
+
+.urunler-hover {
+    width: 148px;
+    height: 39px;
+    background: no-repeat url(../img/detaylar.png);
+    position: absolute;
+    z-index: 111;
+    margin-top: 80px;
+    display: none;
+}
+
+.urunler li:hover .urunler-hover {
+    display: block;
+}
+
+.footer {
+    -webkit-box-shadow: inset 2px 1px 5px 0 rgba(00,00,00,.2);
+    box-shadow: inset 2px 1px 5px 0 rgba(00,00,00,.2);
+    margin-top: 700px;
+    /*height: 200px;*/
+}
+
+    .footer ul {
+        padding: 0;
+    }
+
+        .footer ul li {
+            list-style: none;
+        }
+
+            .footer ul li a {
+                font-size: 12px;
+                color: #666666;
+            }
+
+.mobile-apps li {
+    margin-bottom: 10px;
+}
+
+.where {
+    width: 94%;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    padding: 0 10px;
+    margin: 10px 0;
+    border: 1px solid #eaeaea;
+}
+
+    .where a {
+        color: #000 !important;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .where table td {
+        padding: 0 5px;
+    }
+
+        .where table td:last-child a {
+            color: #777 !important;
+        }
+
+.urun-detay {
+    background: #fff;
+    border: 1px solid #eaeaea;
+    width: 94%;
+    padding: 20px;
+}
+
+.urun-detay-tablo td {
+    font-size: 13px !important;
+    padding: 5px;
+}
+
+.indirim {
+    text-decoration: line-through;
+}
+
+.son-fiyat {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.urun-ozellikleri {
+    width: 90%;
+    margin-left: -15px;
+}
+
+    .urun-ozellikleri tr td {
+        padding: 10px;
+        color: #666666;
+        font-size: 12px;
+    }
+
+a:hover {
+    text-decoration: none !important;
+    color: #666666;
+}
+
+.footer-category li {
+    margin-right: 20px;
+}
+
+.giris-yapili {
+    margin-top: 20px;
+}
+
+    .giris-yapili li {
+        list-style: none;
+        display: inline;
+        padding: 0 5px;
+        border-left: 1px solid #999999;
+        font-family: Arial;
+        font-size: 13px;
+    }
+
+.alt-nav {
+    float: right;
+    margin-top: -25px;
+    margin-bottom: 20px;
+}
+
+    .alt-nav li {
+        display: inline;
+        list-style: none;
+        padding: 0 5px;
+        border-right: 1px solid #999999;
+    }
+
+        .alt-nav li a {
+            color: #666666;
+        }
+
+.sepet table {
+    width: 96%;
+}
+
+    .sepet table td {
+        padding: 10px;
+        border: 1px solid #cacaca;
+    }
+
+.sepet thead {
+    background: #e30613;
+    color: #fff;
+    font-weight: bold;
+}
+
+.tablo-alt {
+    background: #eaeaea;
+}
+
+    .tablo-alt td {
+        width: 100px;
+    }
+
+.sepet img {
+    max-width: 70px;
+}
+
+.urun-adi td {
+    border: none !important;
+    padding: 5px !important;
+}
+
+.adres-ekle {
+    border: 1px solid #cacaca;
+    display: none;
+}
+
+    .adres-ekle tbody td {
+        border: none !important;
+    }
+
+    .adres-ekle .form-control {
+        width: 400px !important;
+    }
+
+.g-bas {
+    width: 96%;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background: #e30613;
+    margin-bottom: 20px;
+}
+
+.banka {
+    width: 425px;
+    height: 200px;
+    border: 1px solid #cacaca;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+    .banka table td {
+        padding: 3px;
+        font-size: 12px;
+    }
+
+.havale {
+    margin-bottom: 30px;
+}
+
+.taksit {
+    width: 100%;
+    margin-top: 20px;
+}
+
+    .taksit td {
+        padding: 5px;
+        text-align: center;
+        font-size: 12px;
+        border: 1px solid #eaeaea;
+    }
+
+    .taksit thead tr {
+        background: #e30613;
+        color: #fff;
+    }
+
+.yorum-box {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid #eaeaea;
+    margin-top: 4px;
+}
+
+    .yorum-box p {
+        font-size: 12px;
+    }
+
+.yorum-baslik {
+    font-weight: bold !important;
+}
+
+.yorum-yapan {
+    color: #e30613;
+    font-weight: bold;
+}
+
+.yorum-tarihi {
+    color: #e30613;
+    font-weight: bold;
+}
+
+
+.main-nav a {
+    padding-right: 25px;
+    font-weight: bold;
+    color: #333;
+}
+
+.icons {
+    margin: 0;
+    padding: 0;
+}
+
+    .icons li {
+        list-style: none;
+        display: inline;
+        margin-right: 10px;
+    }
+
+        .icons li img {
+            margin-bottom: 10px;
+        }
+
+.item-text{
+    position:absolute;
+    height:30px;
+    width:724px;
+    background-color:#cacaca;
+    color:#000000;
+    padding:5px 0 0 10px;
+    font-family:Arial;
+    z-index:9999999;
+    margin-left:-1px !important;
+}
+
+.main-images{
+   border:1px solid #dddddd;
+   max-width:230px !important;
+   max-height: 266px !important;
+   overflow:hidden;
+   margin-bottom:50px;
+   border-radius:3px;
+}
+
+.main-images img{
+    width:230px; 
+    height: 170px;
+    transition: all .2s ease-in-out;
+}
+
+.main-images:hover{
+    border:1px solid #e30613;
+    width:230px !important;
+}
+
+.main-images:hover .item-text{
+    background-color:#e30613;
+    border:1px solid #e30613;
+    width:230px;
+    padding:4px 0 0 9px;
+    color:#fff;
+}
+
+.main-images:hover img{
+    transform: scale(1.02);
+}
+
+.main-images:hover .alisverise-basla{
+    /*display:block;*/
+    font-weight:bold;
+    color:#fff !important;
+}
+
+.main-images:hover .alisverise-basla a{
+    /*display:block;*/
+    font-weight:bold;
+    color:#fff !important;
+}
+
+.alisverise-basla{
+    float:right;
+    padding-right:15px;
+    /*font-weight:bold;*/
+    /*display:none;*/
+    color:#000;
+    font-family:Arial;
+}
+
+.alisverise-basla a{
+    text-decoration:none !important;
+    color:#000;
+    font-family:Arial;
+}
+
+.top-menu{
+    height:35px;
+    width: 920px;
+    background-color:#e30613;
+    margin-bottom:10px;
+    margin-top:5px;
+    overflow:hidden;
+}
+
+.top-menu-item{
+    float:left;
+    margin-top:7px;
+    margin-left:70px;
+    color:#fff;
+    font-family:Calibri;
+    font-size:16px;
+}
+
+.top-menu-item a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.top-menu-item a:hover{
+    /*color:#e30613;*/
+    text-decoration:underline !important;
+}
+.social-media{
+    width: 125px;
+    margin-left: 67px; 
+    padding: 15px 0px 10px;
+}
+.content-news{
+    width: 500px; 
+    /*height: 579px;*/ 
+    float: left; 
+    margin-left: 10px; 
+    margin-top: 15px; 
+    color: #000
+}
+.left-banners{
+    width: 230px; 
+    height: 600px; 
+    float: left
+}
+.add-icon{
+    background-image:url(../img/sepeteEkle.jpg);
+}
+.delete-icon{
+    background-image:url(../img/sepettenSil.jpg);
+}

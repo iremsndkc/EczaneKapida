@@ -1,0 +1,354 @@
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\obj\Debug\YonetimPaneli.csprojResolveAssemblyReference.cache
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\ApplicationInsights.config
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\roslyn\csc.exe
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\roslyn\vbc.exe
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\roslyn\VBCSCompiler.exe
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\YonetimPaneli.dll.config
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\YonetimPaneli.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\YonetimPaneli.pdb
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\EntityFramework.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\EntityFramework.SqlServer.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.Web.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\Veritabani.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\Veritabani.pdb
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\EntityFramework.xml
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\EntityFramework.SqlServer.xml
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.Web.xml
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\obj\Debug\YonetimPaneli.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\YonetimPaneli\obj\Debug\YonetimPaneli.pdb
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\ApplicationInsights.config
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\roslyn\csc.exe
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\roslyn\vbc.exe
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\roslyn\VBCSCompiler.exe
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\YonetimPaneli.dll.config
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\YonetimPaneli.dll
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\YonetimPaneli.pdb
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\EntityFramework.dll
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\EntityFramework.SqlServer.dll
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.Web.dll
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\Microsoft.ApplicationInsights.dll
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\Veritabani.dll
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\Veritabani.pdb
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\EntityFramework.xml
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\EntityFramework.SqlServer.xml
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.Web.xml
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\Microsoft.ApplicationInsights.xml
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\obj\Debug\YonetimPaneli.csprojResolveAssemblyReference.cache
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\obj\Debug\YonetimPaneli.dll
+C:\Users\suleyman\Desktop\EczaneKapida\YonetimPaneli\obj\Debug\YonetimPaneli.pdb
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\ApplicationInsights.config
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\roslyn\csc.exe
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\roslyn\vbc.exe
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\roslyn\VBCSCompiler.exe
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\YonetimPaneli.dll.config
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\YonetimPaneli.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\YonetimPaneli.pdb
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\EntityFramework.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\EntityFramework.SqlServer.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.Web.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\Microsoft.ApplicationInsights.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\Veritabani.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\Veritabani.pdb
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\EntityFramework.xml
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\EntityFramework.SqlServer.xml
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.Web.xml
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\Microsoft.ApplicationInsights.xml
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\obj\Debug\YonetimPaneli.csprojResolveAssemblyReference.cache
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\obj\Debug\YonetimPaneli.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\YonetimPaneli\obj\Debug\YonetimPaneli.pdb
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\ApplicationInsights.config
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\csc.exe
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\System.Collections.Immutable.dll
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\System.Reflection.Metadata.dll
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\vbc.exe
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\VBCSCompiler.exe
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\VBCSCompiler.exe.config
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\YonetimPaneli.dll.config
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\YonetimPaneli.dll
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\YonetimPaneli.pdb
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\EntityFramework.dll
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\EntityFramework.SqlServer.dll
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.Agent.Intercept.dll
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.DependencyCollector.dll
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.Web.dll
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.WindowsServer.dll
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.ApplicationInsights.dll
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Veritabani.dll
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Veritabani.pdb
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\EntityFramework.xml
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\EntityFramework.SqlServer.xml
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.DependencyCollector.xml
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.Web.xml
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.WindowsServer.xml
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.ApplicationInsights.xml
+F:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\EczaneKapida 10.03.2017\YonetimPaneli\obj\Debug\YonetimPaneli.csprojResolveAssemblyReference.cache
+F:\EczaneKapida 10.03.2017\YonetimPaneli\obj\Debug\YonetimPaneli.dll
+F:\EczaneKapida 10.03.2017\YonetimPaneli\obj\Debug\YonetimPaneli.pdb
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\ApplicationInsights.config
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\csc.exe
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\System.Collections.Immutable.dll
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\System.Reflection.Metadata.dll
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\vbc.exe
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\VBCSCompiler.exe
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\VBCSCompiler.exe.config
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\YonetimPaneli.dll.config
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\YonetimPaneli.dll
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\YonetimPaneli.pdb
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\EntityFramework.dll
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\EntityFramework.SqlServer.dll
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.Agent.Intercept.dll
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.DependencyCollector.dll
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.Web.dll
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.WindowsServer.dll
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.ApplicationInsights.dll
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Veritabani.dll
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Veritabani.pdb
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\EntityFramework.xml
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\EntityFramework.SqlServer.xml
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.DependencyCollector.xml
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.Web.xml
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.WindowsServer.xml
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.ApplicationInsights.xml
+E:\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\EczaneKapida 10.03.2017\YonetimPaneli\obj\Debug\YonetimPaneli.csprojResolveAssemblyReference.cache
+E:\EczaneKapida 10.03.2017\YonetimPaneli\obj\Debug\YonetimPaneli.dll
+E:\EczaneKapida 10.03.2017\YonetimPaneli\obj\Debug\YonetimPaneli.pdb
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\ApplicationInsights.config
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\csc.exe
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\vbc.exe
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\VBCSCompiler.exe
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\YonetimPaneli.dll.config
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\YonetimPaneli.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\YonetimPaneli.pdb
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\EntityFramework.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\EntityFramework.SqlServer.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.Web.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Veritabani.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Veritabani.pdb
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\EntityFramework.xml
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\EntityFramework.SqlServer.xml
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.Web.xml
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\obj\Debug\YonetimPaneli.csprojResolveAssemblyReference.cache
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\obj\Debug\YonetimPaneli.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\YonetimPaneli\obj\Debug\YonetimPaneli.pdb
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\ApplicationInsights.config
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\csc.exe
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\System.Collections.Immutable.dll
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\System.Reflection.Metadata.dll
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\vbc.exe
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\VBCSCompiler.exe
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\VBCSCompiler.exe.config
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\YonetimPaneli.dll.config
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\YonetimPaneli.dll
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\YonetimPaneli.pdb
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\EntityFramework.dll
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\EntityFramework.SqlServer.dll
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.Agent.Intercept.dll
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.DependencyCollector.dll
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.Web.dll
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.WindowsServer.dll
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.ApplicationInsights.dll
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Veritabani.dll
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Veritabani.pdb
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\EntityFramework.xml
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\EntityFramework.SqlServer.xml
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.DependencyCollector.xml
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.Web.xml
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.WindowsServer.xml
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.ApplicationInsights.xml
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\obj\Debug\YonetimPaneli.csprojResolveAssemblyReference.cache
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\obj\Debug\YonetimPaneli.dll
+F:\USB\EczaneKapida 10.03.2017\YonetimPaneli\obj\Debug\YonetimPaneli.pdb
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\ApplicationInsights.config
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\csc.exe
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\System.Collections.Immutable.dll
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\System.Reflection.Metadata.dll
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\vbc.exe
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\VBCSCompiler.exe
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\roslyn\VBCSCompiler.exe.config
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\YonetimPaneli.dll.config
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\YonetimPaneli.dll
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\YonetimPaneli.pdb
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\EntityFramework.dll
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\EntityFramework.SqlServer.dll
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.Agent.Intercept.dll
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.DependencyCollector.dll
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.Web.dll
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.WindowsServer.dll
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.ApplicationInsights.dll
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\Veritabani.dll
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\Veritabani.pdb
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\EntityFramework.xml
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\EntityFramework.SqlServer.xml
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.DependencyCollector.xml
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.Web.xml
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.AI.WindowsServer.xml
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.ApplicationInsights.xml
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\obj\Debug\YonetimPaneli.csprojResolveAssemblyReference.cache
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\obj\Debug\YonetimPaneli.dll
+F:\USB\yeni\EczaneKapida 10.03.2017\YonetimPaneli\obj\Debug\YonetimPaneli.pdb
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\ApplicationInsights.config
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\roslyn\csc.exe
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\roslyn\System.Collections.Immutable.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\roslyn\System.Reflection.Metadata.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\roslyn\vbc.exe
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\roslyn\VBCSCompiler.exe
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\roslyn\VBCSCompiler.exe.config
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\YonetimPaneli.dll.config
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\YonetimPaneli.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\YonetimPaneli.pdb
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\EntityFramework.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\EntityFramework.SqlServer.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.DependencyCollector.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.Web.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.WindowsServer.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\Microsoft.ApplicationInsights.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\Veritabani.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\Veritabani.pdb
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\Veritabani.dll.config
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\EntityFramework.xml
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\EntityFramework.SqlServer.xml
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.DependencyCollector.xml
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.Web.xml
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\Microsoft.AI.WindowsServer.xml
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\Microsoft.ApplicationInsights.xml
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\obj\Debug\YonetimPaneli.csproj.AssemblyReference.cache
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\obj\Debug\YonetimPaneli.csproj.CoreCompileInputs.cache
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\obj\Debug\YonetimPaneli.csproj.CopyComplete
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\obj\Debug\YonetimPaneli.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\YonetimPaneli\obj\Debug\YonetimPaneli.pdb

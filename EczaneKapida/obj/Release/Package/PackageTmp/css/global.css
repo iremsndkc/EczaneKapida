@@ -1,0 +1,59 @@
+﻿/* SLIDER CSS */
+
+#container {
+    width: 200px;
+    height: 310px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+#example {
+    width: 200px;
+    height: 310px;
+    margin: auto;
+}
+
+#slides {
+    width: 200px;
+    height: 310px;
+    text-align: center;
+}
+
+    /*
+	Slideshow
+*/
+
+    #slides .slide {
+        width: 200px;
+        height: 310px;
+        margin: auto;
+        margin-top:25px;
+    }
+
+.slides_container {
+    width: 200px;
+    height: 310px;
+}
+
+#slides .pagination
+{
+    display:none;
+}
+
+.arrows {
+    margin-top: -42px;
+}
+
+#slides .next, #slides .prev {
+    display: block !important;
+    z-index: 101;
+    float: left;
+    position:absolute;
+}
+
+#slides .next {
+    left:183px;
+}
+
+/* SLIDER CSS */

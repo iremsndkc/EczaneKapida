@@ -1,0 +1,1084 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Seleyemene\Publish\EczaneKapidaYonetici</_PublishTargetUrl>
+    <History>True|2023-06-02T21:03:47.2521285Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>03/04/2017 23:29:16</publishTime>
+    </File>
+    <File Include="assets/css/bootstrap.css">
+      <publishTime>03/10/2017 07:55:58</publishTime>
+    </File>
+    <File Include="assets/css/bootstrap.min.css">
+      <publishTime>03/10/2017 07:56:06</publishTime>
+    </File>
+    <File Include="assets/css/jquery.dataTables.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/css/jquery.fancybox.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/css/landing.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/css/main.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/css/unicorn.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/bg0.jpg">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/bg_pattern.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/bg_pattern2.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/bg_top.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/blank.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/defaultuser.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/dragdrop.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/dragdrop2.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/fancybox_loading.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/fancybox_overlay.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/fancybox_sprite.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/glyphicons-halflings-white.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/glyphicons-halflings.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/icons/icon01.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/icons/icon02.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/icons/icon03.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/icons/icon04.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/icons/icon05.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/icons/icon06.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/icons/icon07.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/icons/icon08.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/icons/icon09.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/icons/icon10.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/icons/icon11.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/icons/icon12.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/icons/icon13.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/icons/icon14.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/leftmenu_border.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/logo.png">
+      <publishTime>03/08/2017 14:19:18</publishTime>
+    </File>
+    <File Include="assets/img/noimage.jpg">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/overlay.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/ProjeLogo.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/sidebar.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/slider.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/sort_asc.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/sort_asc_disabled.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/sort_both.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/sort_desc.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/sort_desc_disabled.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/topgrade.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/img/transparent.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/bootstrap.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/bootstrap.min.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/bs-dropdown.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/filedrag.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/functions.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/jquery-ui-1.11.4.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/jquery-ui.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/jquery.dataTables.min.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/jquery.fancybox.pack.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/jquery.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/jquery.mousewheel-3.0.6.pack.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/jquery.validate.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/landing.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/main.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/langs/en.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/advhr/css/advhr.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/advhr/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/advhr/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/advhr/js/rule.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/advhr/langs/en_dlg.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/advhr/rule.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/advimage/css/advimage.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/advimage/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/advimage/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/advimage/image.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/advimage/img/sample.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/advimage/js/image.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/advimage/langs/en_dlg.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/advlink/css/advlink.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/advlink/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/advlink/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/advlink/js/advlink.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/advlink/langs/en_dlg.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/advlink/link.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/advlist/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/advlist/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/autolink/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/autolink/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/autoresize/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/autoresize/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/autosave/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/autosave/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/bbcode/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/bbcode/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/contextmenu/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/contextmenu/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/directionality/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/directionality/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/emotions/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/emotions/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/emotions/emotions.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/emotions/img/smiley-cool.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/emotions/img/smiley-cry.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/emotions/img/smiley-embarassed.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/emotions/img/smiley-foot-in-mouth.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/emotions/img/smiley-frown.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/emotions/img/smiley-innocent.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/emotions/img/smiley-kiss.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/emotions/img/smiley-laughing.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/emotions/img/smiley-money-mouth.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/emotions/img/smiley-sealed.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/emotions/img/smiley-smile.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/emotions/img/smiley-surprised.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/emotions/img/smiley-tongue-out.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/emotions/img/smiley-undecided.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/emotions/img/smiley-wink.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/emotions/img/smiley-yell.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/emotions/js/emotions.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/emotions/langs/en_dlg.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/example/dialog.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/example/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/example/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/example/img/example.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/example/js/dialog.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/example/langs/en.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/example/langs/en_dlg.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/example_dependency/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/example_dependency/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/fullpage/css/fullpage.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/fullpage/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/fullpage/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/fullpage/fullpage.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/fullpage/js/fullpage.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/fullpage/langs/en_dlg.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/fullscreen/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/fullscreen/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/fullscreen/fullscreen.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/iespell/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/iespell/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/inlinepopups/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/inlinepopups/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/alert.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/button.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/buttons.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/confirm.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/corners.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/horizontal.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/vertical.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/window.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/inlinepopups/template.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/insertdatetime/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/insertdatetime/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/layer/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/layer/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/legacyoutput/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/legacyoutput/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/lists/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/lists/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/media/css/media.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/media/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/media/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/media/js/embed.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/media/js/media.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/media/langs/en_dlg.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/media/media.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/media/moxieplayer.swf">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/nonbreaking/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/nonbreaking/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/noneditable/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/noneditable/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/pagebreak/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/pagebreak/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/paste/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/paste/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/paste/js/pastetext.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/paste/js/pasteword.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/paste/langs/en_dlg.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/paste/pastetext.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/paste/pasteword.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/preview/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/preview/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/preview/example.html">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/preview/jscripts/embed.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/preview/preview.html">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/print/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/print/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/save/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/save/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/searchreplace/css/searchreplace.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/searchreplace/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/searchreplace/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/searchreplace/js/searchreplace.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/searchreplace/langs/en_dlg.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/searchreplace/searchreplace.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/spellchecker/css/content.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/spellchecker/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/spellchecker/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/spellchecker/img/wline.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/style/css/props.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/style/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/style/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/style/js/props.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/style/langs/en_dlg.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/style/props.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/style/readme.txt">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/tabfocus/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/tabfocus/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/table/cell.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/table/css/cell.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/table/css/row.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/table/css/table.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/table/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/table/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/table/js/cell.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/table/js/merge_cells.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/table/js/row.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/table/js/table.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/table/langs/en_dlg.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/table/merge_cells.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/table/row.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/table/table.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/template/blank.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/template/css/template.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/template/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/template/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/template/js/template.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/template/langs/en_dlg.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/template/template.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/visualblocks/css/visualblocks.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/visualblocks/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/visualblocks/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/visualchars/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/visualchars/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/wordcount/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/wordcount/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/xhtmlxtras/abbr.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/xhtmlxtras/acronym.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/xhtmlxtras/attributes.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/xhtmlxtras/cite.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/xhtmlxtras/css/attributes.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/xhtmlxtras/css/popup.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/xhtmlxtras/del.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/xhtmlxtras/editor_plugin.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/xhtmlxtras/editor_plugin_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/xhtmlxtras/ins.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/xhtmlxtras/js/abbr.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/xhtmlxtras/js/acronym.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/xhtmlxtras/js/attributes.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/xhtmlxtras/js/cite.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/xhtmlxtras/js/del.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/xhtmlxtras/js/element_common.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/xhtmlxtras/js/ins.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/plugins/xhtmlxtras/langs/en_dlg.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/about.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/anchor.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/charmap.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/color_picker.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/editor_template.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/editor_template_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/image.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/img/colorpicker.jpg">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/img/flash.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/img/icons.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/img/iframe.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/img/pagebreak.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/img/quicktime.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/img/realmedia.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/img/shockwave.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/img/trans.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/img/video.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/img/windowsmedia.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/js/about.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/js/anchor.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/js/charmap.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/js/color_picker.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/js/image.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/js/link.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/js/source_editor.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/langs/en.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/langs/en_dlg.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/link.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/shortcuts.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/skins/default/content.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/skins/default/dialog.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/skins/default/img/buttons.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/skins/default/img/items.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/skins/default/img/menu_arrow.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/skins/default/img/menu_check.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/skins/default/img/progress.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/skins/default/img/tabs.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/skins/default/ui.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/skins/highcontrast/content.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/skins/highcontrast/dialog.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/skins/highcontrast/ui.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/skins/o2k7/content.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/skins/o2k7/dialog.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/skins/o2k7/img/button_bg.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_black.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_silver.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/skins/o2k7/ui.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/skins/o2k7/ui_black.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/advanced/source_editor.htm">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/simple/editor_template.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/simple/editor_template_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/simple/img/icons.gif">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/simple/langs/en.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/simple/skins/default/content.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/simple/skins/default/ui.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/simple/skins/o2k7/content.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/simple/skins/o2k7/img/button_bg.png">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/themes/simple/skins/o2k7/ui.css">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/tiny_mce.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/tiny_mce_popup.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/tiny_mce_src.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/utils/editable_selects.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/utils/form_utils.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/utils/mctabs.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="assets/js/tiny_mce/utils/validate.js">
+      <publishTime>03/04/2017 22:30:56</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>03/04/2017 23:29:16</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>11/03/2015 16:43:42</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>11/03/2015 16:43:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>11/30/2016 16:07:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>12/07/2016 11:45:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>12/07/2016 11:50:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>12/06/2016 15:15:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>12/07/2016 11:49:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>12/07/2016 11:50:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>12/06/2016 15:09:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 01:06:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 19:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 19:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 19:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 19:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 19:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 19:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 19:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 19:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 19:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 19:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 19:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 19:19:46</publishTime>
+    </File>
+    <File Include="bin/Veritabani.dll">
+      <publishTime>06/02/2023 23:49:58</publishTime>
+    </File>
+    <File Include="bin/Veritabani.dll.config">
+      <publishTime>06/02/2023 23:56:07</publishTime>
+    </File>
+    <File Include="bin/Veritabani.pdb">
+      <publishTime>06/02/2023 23:49:58</publishTime>
+    </File>
+    <File Include="bin/YonetimPaneli.dll">
+      <publishTime>06/03/2023 00:03:46</publishTime>
+    </File>
+    <File Include="bin/YonetimPaneli.pdb">
+      <publishTime>06/03/2023 00:03:46</publishTime>
+    </File>
+    <File Include="Cikis.aspx">
+      <publishTime>03/07/2017 11:31:28</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>03/04/2017 23:31:40</publishTime>
+    </File>
+    <File Include="Giris.aspx">
+      <publishTime>04/22/2017 15:08:24</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/04/2017 23:29:12</publishTime>
+    </File>
+    <File Include="IlacEkle.aspx">
+      <publishTime>03/07/2017 13:23:58</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/04/2017 23:29:42</publishTime>
+    </File>
+    <File Include="ReceteEkle.aspx">
+      <publishTime>03/20/2017 22:12:14</publishTime>
+    </File>
+    <File Include="SiparisDetay.aspx">
+      <publishTime>04/22/2017 13:55:00</publishTime>
+    </File>
+    <File Include="Siparisler.aspx">
+      <publishTime>03/08/2017 14:15:42</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/03/2023 00:03:46</publishTime>
+    </File>
+    <File Include="Yonetici.Master">
+      <publishTime>04/22/2017 15:07:24</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

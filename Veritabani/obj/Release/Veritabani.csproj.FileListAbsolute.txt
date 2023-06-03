@@ -1,0 +1,12 @@
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\bin\Release\Veritabani.dll.config
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\bin\Release\Veritabani.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\bin\Release\Veritabani.pdb
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\bin\Release\EntityFramework.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\bin\Release\EntityFramework.SqlServer.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\bin\Release\EntityFramework.xml
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\bin\Release\EntityFramework.SqlServer.xml
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\obj\Release\Veritabani.csproj.AssemblyReference.cache
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\obj\Release\Veritabani.csproj.CoreCompileInputs.cache
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\obj\Release\Veritabani.csproj.CopyComplete
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\obj\Release\Veritabani.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\obj\Release\Veritabani.pdb

@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="EczaneKapidaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Hasta">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TCKN" Type="nvarchar" MaxLength="50" />
+          <Property Name="OlusturmaTarihi" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Ilac">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Ad" Type="nvarchar" MaxLength="150" />
+          <Property Name="Aciklama" Type="nvarchar(max)" />
+          <Property Name="Resim" Type="nvarchar" MaxLength="50" />
+          <Property Name="Fiyat" Type="money" />
+          <Property Name="KargoFiyati" Type="money" />
+          <Property Name="OlusturmaTarihi" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Recete">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DoktorId" Type="int" />
+          <Property Name="IlacId" Type="int" />
+          <Property Name="HastaId" Type="int" />
+          <Property Name="Adet" Type="int" />
+          <Property Name="SepettekiAdet" Type="int" />
+          <Property Name="AlinanAdet" Type="int" />
+          <Property Name="OlusturmaTarihi" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Sepet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="HastaId" Type="int" Nullable="false" />
+          <Property Name="ReceteId" Type="int" />
+          <Property Name="IlacId" Type="int" />
+          <Property Name="UrunAdet" Type="int" />
+          <Property Name="OlusturmaTarihi" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Siparis">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SiparisNo" Type="int" />
+          <Property Name="HastaId" Type="int" />
+          <Property Name="ToplamTutar" Type="money" />
+          <Property Name="Ad" Type="nvarchar" MaxLength="50" />
+          <Property Name="Soyad" Type="nvarchar" MaxLength="50" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" />
+          <Property Name="Gsm" Type="nvarchar" MaxLength="50" />
+          <Property Name="Tc" Type="nvarchar" MaxLength="50" />
+          <Property Name="Adres" Type="nvarchar" MaxLength="150" />
+          <Property Name="Il" Type="nvarchar" MaxLength="50" />
+          <Property Name="Ilce" Type="nvarchar" MaxLength="50" />
+          <Property Name="VergiDairesi" Type="nvarchar" MaxLength="100" />
+          <Property Name="PostaKodu" Type="nvarchar" MaxLength="50" />
+          <Property Name="OdemeTipi" Type="nvarchar" MaxLength="50" />
+          <Property Name="Durum" Type="bit" />
+          <Property Name="OlusturmaTarihi" Type="datetime" />
+        </EntityType>
+        <EntityType Name="SiparisDetay">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SiparisId" Type="int" Nullable="false" />
+          <Property Name="ReceteId" Type="int" />
+          <Property Name="IlacId" Type="int" Nullable="false" />
+          <Property Name="SiparisDurumu" Type="nvarchar" MaxLength="100" />
+          <Property Name="UrunFiyat" Type="money" />
+          <Property Name="UrunKargo" Type="money" />
+          <Property Name="UrunAdet" Type="int" />
+          <Property Name="UrunToplam" Type="money" />
+          <Property Name="OlusturmaTarihi" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Yonetici">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="KullaniciAdi" Type="nvarchar" MaxLength="50" />
+          <Property Name="Sifre" Type="nvarchar" MaxLength="50" />
+          <Property Name="Yetki" Type="bit" />
+          <Property Name="Durum" Type="bit" />
+        </EntityType>
+        <Association Name="FK_Recete_Hasta">
+          <End Role="Hasta" Type="Self.Hasta" Multiplicity="0..1" />
+          <End Role="Recete" Type="Self.Recete" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Hasta">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Recete">
+              <PropertyRef Name="HastaId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Recete_Ilac">
+          <End Role="Ilac" Type="Self.Ilac" Multiplicity="0..1" />
+          <End Role="Recete" Type="Self.Recete" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Ilac">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Recete">
+              <PropertyRef Name="IlacId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Recete_Yonetici">
+          <End Role="Yonetici" Type="Self.Yonetici" Multiplicity="0..1" />
+          <End Role="Recete" Type="Self.Recete" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Yonetici">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Recete">
+              <PropertyRef Name="DoktorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Sepet_Hasta">
+          <End Role="Hasta" Type="Self.Hasta" Multiplicity="1" />
+          <End Role="Sepet" Type="Self.Sepet" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Hasta">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Sepet">
+              <PropertyRef Name="HastaId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Sepet_Recete">
+          <End Role="Recete" Type="Self.Recete" Multiplicity="0..1" />
+          <End Role="Sepet" Type="Self.Sepet" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Recete">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Sepet">
+              <PropertyRef Name="ReceteId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Siparis_Hasta">
+          <End Role="Hasta" Type="Self.Hasta" Multiplicity="0..1" />
+          <End Role="Siparis" Type="Self.Siparis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Hasta">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Siparis">
+              <PropertyRef Name="HastaId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SiparisDetay_Siparis">
+          <End Role="Siparis" Type="Self.Siparis" Multiplicity="1" />
+          <End Role="SiparisDetay" Type="Self.SiparisDetay" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Siparis">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SiparisDetay">
+              <PropertyRef Name="SiparisId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="EczaneKapidaModelStoreContainer">
+          <EntitySet Name="Hasta" EntityType="Self.Hasta" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Ilac" EntityType="Self.Ilac" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Recete" EntityType="Self.Recete" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Sepet" EntityType="Self.Sepet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Siparis" EntityType="Self.Siparis" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SiparisDetay" EntityType="Self.SiparisDetay" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Yonetici" EntityType="Self.Yonetici" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Recete_Hasta" Association="Self.FK_Recete_Hasta">
+            <End Role="Hasta" EntitySet="Hasta" />
+            <End Role="Recete" EntitySet="Recete" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Recete_Ilac" Association="Self.FK_Recete_Ilac">
+            <End Role="Ilac" EntitySet="Ilac" />
+            <End Role="Recete" EntitySet="Recete" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Recete_Yonetici" Association="Self.FK_Recete_Yonetici">
+            <End Role="Yonetici" EntitySet="Yonetici" />
+            <End Role="Recete" EntitySet="Recete" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Sepet_Hasta" Association="Self.FK_Sepet_Hasta">
+            <End Role="Hasta" EntitySet="Hasta" />
+            <End Role="Sepet" EntitySet="Sepet" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Sepet_Recete" Association="Self.FK_Sepet_Recete">
+            <End Role="Recete" EntitySet="Recete" />
+            <End Role="Sepet" EntitySet="Sepet" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Siparis_Hasta" Association="Self.FK_Siparis_Hasta">
+            <End Role="Hasta" EntitySet="Hasta" />
+            <End Role="Siparis" EntitySet="Siparis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SiparisDetay_Siparis" Association="Self.FK_SiparisDetay_Siparis">
+            <End Role="Siparis" EntitySet="Siparis" />
+            <End Role="SiparisDetay" EntitySet="SiparisDetay" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="EczaneKapidaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Hasta">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TCKN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="OlusturmaTarihi" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Sepet" Relationship="EczaneKapidaModel.FK_Sepet_Hasta" FromRole="Hasta" ToRole="Sepet" />
+          <NavigationProperty Name="Siparis" Relationship="EczaneKapidaModel.FK_Siparis_Hasta" FromRole="Hasta" ToRole="Siparis" />
+          <NavigationProperty Name="Recete" Relationship="EczaneKapidaModel.FK_Recete_Hasta" FromRole="Hasta" ToRole="Recete" />
+        </EntityType>
+        <EntityType Name="Ilac">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Ad" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="Aciklama" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Resim" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Fiyat" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="KargoFiyati" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="OlusturmaTarihi" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Recete" Relationship="EczaneKapidaModel.FK_Recete_Ilac" FromRole="Ilac" ToRole="Recete" />
+        </EntityType>
+        <EntityType Name="Yonetici">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="KullaniciAdi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Sifre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Yetki" Type="Boolean" />
+          <Property Name="Durum" Type="Boolean" />
+          <NavigationProperty Name="Recete" Relationship="EczaneKapidaModel.FK_Recete_Yonetici" FromRole="Yonetici" ToRole="Recete" />
+        </EntityType>
+        <EntityContainer Name="EczaneKapidaEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Hasta" EntityType="Self.Hasta" />
+          <EntitySet Name="Ilac" EntityType="Self.Ilac" />
+          <EntitySet Name="Yonetici" EntityType="Self.Yonetici" />
+          <EntitySet Name="Sepet" EntityType="EczaneKapidaModel.Sepet" />
+          <AssociationSet Name="FK_Sepet_Hasta" Association="EczaneKapidaModel.FK_Sepet_Hasta">
+            <End Role="Hasta" EntitySet="Hasta" />
+            <End Role="Sepet" EntitySet="Sepet" />
+          </AssociationSet>
+          <EntitySet Name="SiparisDetay" EntityType="EczaneKapidaModel.SiparisDetay" />
+          <EntitySet Name="Siparis" EntityType="EczaneKapidaModel.Siparis" />
+          <AssociationSet Name="FK_Siparis_Hasta" Association="EczaneKapidaModel.FK_Siparis_Hasta">
+            <End Role="Hasta" EntitySet="Hasta" />
+            <End Role="Siparis" EntitySet="Siparis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SiparisDetay_Siparis" Association="EczaneKapidaModel.FK_SiparisDetay_Siparis">
+            <End Role="Siparis" EntitySet="Siparis" />
+            <End Role="SiparisDetay" EntitySet="SiparisDetay" />
+          </AssociationSet>
+          <EntitySet Name="Recete" EntityType="EczaneKapidaModel.Recete" />
+          <AssociationSet Name="FK_Recete_Hasta" Association="EczaneKapidaModel.FK_Recete_Hasta">
+            <End Role="Hasta" EntitySet="Hasta" />
+            <End Role="Recete" EntitySet="Recete" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Recete_Ilac" Association="EczaneKapidaModel.FK_Recete_Ilac">
+            <End Role="Ilac" EntitySet="Ilac" />
+            <End Role="Recete" EntitySet="Recete" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Recete_Yonetici" Association="EczaneKapidaModel.FK_Recete_Yonetici">
+            <End Role="Yonetici" EntitySet="Yonetici" />
+            <End Role="Recete" EntitySet="Recete" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Sepet_Recete" Association="EczaneKapidaModel.FK_Sepet_Recete">
+            <End Role="Recete" EntitySet="Recete" />
+            <End Role="Sepet" EntitySet="Sepet" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Sepet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="HastaId" Type="Int32" Nullable="false" />
+          <Property Name="ReceteId" Type="Int32" />
+          <Property Name="IlacId" Type="Int32" />
+          <Property Name="UrunAdet" Type="Int32" />
+          <Property Name="OlusturmaTarihi" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Hasta" Relationship="EczaneKapidaModel.FK_Sepet_Hasta" FromRole="Sepet" ToRole="Hasta" />
+          <NavigationProperty Name="Recete" Relationship="EczaneKapidaModel.FK_Sepet_Recete" FromRole="Sepet" ToRole="Recete" />
+        </EntityType>
+        <Association Name="FK_Sepet_Hasta">
+          <End Type="EczaneKapidaModel.Hasta" Role="Hasta" Multiplicity="1" />
+          <End Type="EczaneKapidaModel.Sepet" Role="Sepet" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Hasta">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Sepet">
+              <PropertyRef Name="HastaId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="SiparisDetay">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SiparisId" Type="Int32" Nullable="false" />
+          <Property Name="ReceteId" Type="Int32" />
+          <Property Name="IlacId" Type="Int32" Nullable="false" />
+          <Property Name="SiparisDurumu" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="UrunFiyat" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="UrunKargo" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="UrunAdet" Type="Int32" />
+          <Property Name="UrunToplam" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="OlusturmaTarihi" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Siparis" Relationship="EczaneKapidaModel.FK_SiparisDetay_Siparis" FromRole="SiparisDetay" ToRole="Siparis" />
+        </EntityType>
+        <EntityType Name="Siparis">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SiparisNo" Type="Int32" />
+          <Property Name="HastaId" Type="Int32" />
+          <Property Name="ToplamTutar" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Ad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Soyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Gsm" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Tc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Adres" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="Il" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Ilce" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="VergiDairesi" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="PostaKodu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="OdemeTipi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Durum" Type="Boolean" />
+          <Property Name="OlusturmaTarihi" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Hasta" Relationship="EczaneKapidaModel.FK_Siparis_Hasta" FromRole="Siparis" ToRole="Hasta" />
+          <NavigationProperty Name="SiparisDetay" Relationship="EczaneKapidaModel.FK_SiparisDetay_Siparis" FromRole="Siparis" ToRole="SiparisDetay" />
+        </EntityType>
+        <Association Name="FK_Siparis_Hasta">
+          <End Type="EczaneKapidaModel.Hasta" Role="Hasta" Multiplicity="0..1" />
+          <End Type="EczaneKapidaModel.Siparis" Role="Siparis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Hasta">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Siparis">
+              <PropertyRef Name="HastaId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SiparisDetay_Siparis">
+          <End Type="EczaneKapidaModel.Siparis" Role="Siparis" Multiplicity="1" />
+          <End Type="EczaneKapidaModel.SiparisDetay" Role="SiparisDetay" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Siparis">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SiparisDetay">
+              <PropertyRef Name="SiparisId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Recete">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DoktorId" Type="Int32" />
+          <Property Name="IlacId" Type="Int32" />
+          <Property Name="HastaId" Type="Int32" />
+          <Property Name="Adet" Type="Int32" />
+          <Property Name="SepettekiAdet" Type="Int32" />
+          <Property Name="AlinanAdet" Type="Int32" />
+          <Property Name="OlusturmaTarihi" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Hasta" Relationship="EczaneKapidaModel.FK_Recete_Hasta" FromRole="Recete" ToRole="Hasta" />
+          <NavigationProperty Name="Ilac" Relationship="EczaneKapidaModel.FK_Recete_Ilac" FromRole="Recete" ToRole="Ilac" />
+          <NavigationProperty Name="Yonetici" Relationship="EczaneKapidaModel.FK_Recete_Yonetici" FromRole="Recete" ToRole="Yonetici" />
+          <NavigationProperty Name="Sepet" Relationship="EczaneKapidaModel.FK_Sepet_Recete" FromRole="Recete" ToRole="Sepet" />
+        </EntityType>
+        <Association Name="FK_Recete_Hasta">
+          <End Type="EczaneKapidaModel.Hasta" Role="Hasta" Multiplicity="0..1" />
+          <End Type="EczaneKapidaModel.Recete" Role="Recete" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Hasta">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Recete">
+              <PropertyRef Name="HastaId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Recete_Ilac">
+          <End Type="EczaneKapidaModel.Ilac" Role="Ilac" Multiplicity="0..1" />
+          <End Type="EczaneKapidaModel.Recete" Role="Recete" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Ilac">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Recete">
+              <PropertyRef Name="IlacId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Recete_Yonetici">
+          <End Type="EczaneKapidaModel.Yonetici" Role="Yonetici" Multiplicity="0..1" />
+          <End Type="EczaneKapidaModel.Recete" Role="Recete" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Yonetici">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Recete">
+              <PropertyRef Name="DoktorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Sepet_Recete">
+          <End Type="EczaneKapidaModel.Recete" Role="Recete" Multiplicity="0..1" />
+          <End Type="EczaneKapidaModel.Sepet" Role="Sepet" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Recete">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Sepet">
+              <PropertyRef Name="ReceteId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="EczaneKapidaModelStoreContainer" CdmEntityContainer="EczaneKapidaEntities">
+          <EntitySetMapping Name="Hasta">
+            <EntityTypeMapping TypeName="EczaneKapidaModel.Hasta">
+              <MappingFragment StoreEntitySet="Hasta">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="TCKN" ColumnName="TCKN" />
+                <ScalarProperty Name="OlusturmaTarihi" ColumnName="OlusturmaTarihi" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ilac">
+            <EntityTypeMapping TypeName="EczaneKapidaModel.Ilac">
+              <MappingFragment StoreEntitySet="Ilac">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+                <ScalarProperty Name="Resim" ColumnName="Resim" />
+                <ScalarProperty Name="Fiyat" ColumnName="Fiyat" />
+                <ScalarProperty Name="KargoFiyati" ColumnName="KargoFiyati" />
+                <ScalarProperty Name="OlusturmaTarihi" ColumnName="OlusturmaTarihi" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Yonetici">
+            <EntityTypeMapping TypeName="EczaneKapidaModel.Yonetici">
+              <MappingFragment StoreEntitySet="Yonetici">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="KullaniciAdi" ColumnName="KullaniciAdi" />
+                <ScalarProperty Name="Sifre" ColumnName="Sifre" />
+                <ScalarProperty Name="Yetki" ColumnName="Yetki" />
+                <ScalarProperty Name="Durum" ColumnName="Durum" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Sepet">
+            <EntityTypeMapping TypeName="EczaneKapidaModel.Sepet">
+              <MappingFragment StoreEntitySet="Sepet">
+                <ScalarProperty Name="OlusturmaTarihi" ColumnName="OlusturmaTarihi" />
+                <ScalarProperty Name="UrunAdet" ColumnName="UrunAdet" />
+                <ScalarProperty Name="IlacId" ColumnName="IlacId" />
+                <ScalarProperty Name="ReceteId" ColumnName="ReceteId" />
+                <ScalarProperty Name="HastaId" ColumnName="HastaId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SiparisDetay">
+            <EntityTypeMapping TypeName="EczaneKapidaModel.SiparisDetay">
+              <MappingFragment StoreEntitySet="SiparisDetay">
+                <ScalarProperty Name="OlusturmaTarihi" ColumnName="OlusturmaTarihi" />
+                <ScalarProperty Name="UrunToplam" ColumnName="UrunToplam" />
+                <ScalarProperty Name="UrunAdet" ColumnName="UrunAdet" />
+                <ScalarProperty Name="UrunKargo" ColumnName="UrunKargo" />
+                <ScalarProperty Name="UrunFiyat" ColumnName="UrunFiyat" />
+                <ScalarProperty Name="SiparisDurumu" ColumnName="SiparisDurumu" />
+                <ScalarProperty Name="IlacId" ColumnName="IlacId" />
+                <ScalarProperty Name="ReceteId" ColumnName="ReceteId" />
+                <ScalarProperty Name="SiparisId" ColumnName="SiparisId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Siparis">
+            <EntityTypeMapping TypeName="EczaneKapidaModel.Siparis">
+              <MappingFragment StoreEntitySet="Siparis">
+                <ScalarProperty Name="OlusturmaTarihi" ColumnName="OlusturmaTarihi" />
+                <ScalarProperty Name="Durum" ColumnName="Durum" />
+                <ScalarProperty Name="OdemeTipi" ColumnName="OdemeTipi" />
+                <ScalarProperty Name="PostaKodu" ColumnName="PostaKodu" />
+                <ScalarProperty Name="VergiDairesi" ColumnName="VergiDairesi" />
+                <ScalarProperty Name="Ilce" ColumnName="Ilce" />
+                <ScalarProperty Name="Il" ColumnName="Il" />
+                <ScalarProperty Name="Adres" ColumnName="Adres" />
+                <ScalarProperty Name="Tc" ColumnName="Tc" />
+                <ScalarProperty Name="Gsm" ColumnName="Gsm" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="ToplamTutar" ColumnName="ToplamTutar" />
+                <ScalarProperty Name="HastaId" ColumnName="HastaId" />
+                <ScalarProperty Name="SiparisNo" ColumnName="SiparisNo" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Recete">
+            <EntityTypeMapping TypeName="EczaneKapidaModel.Recete">
+              <MappingFragment StoreEntitySet="Recete">
+                <ScalarProperty Name="OlusturmaTarihi" ColumnName="OlusturmaTarihi" />
+                <ScalarProperty Name="AlinanAdet" ColumnName="AlinanAdet" />
+                <ScalarProperty Name="SepettekiAdet" ColumnName="SepettekiAdet" />
+                <ScalarProperty Name="Adet" ColumnName="Adet" />
+                <ScalarProperty Name="HastaId" ColumnName="HastaId" />
+                <ScalarProperty Name="IlacId" ColumnName="IlacId" />
+                <ScalarProperty Name="DoktorId" ColumnName="DoktorId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

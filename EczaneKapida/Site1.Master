@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="EczaneKapida.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Eczane Kapıda </title>
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/StyleSheet1.css" rel="stylesheet" />
+    <link href="/css/global.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+    <link href="/css/flexslider.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="top">
+            <div class="wrap">
+                <div class="pull-left logo" style="width:920px;height:90px;">
+                    <a href="/Default.aspx">
+                        <img src="img/logo.png"/></a>
+                </div>
+                <div class="pull-right" id="div_uye_bilgileri" runat="server" visible="false">
+                    <ul class="giris-yapili pull-right">
+                        <li style="border-left: none;"><b>Merhaba,</b>
+                            <asp:Label ID="lblUserName" runat="server" Text=""></asp:Label></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                    <br />
+                    <ul class="alt-nav">
+                    </ul>
+                </div>
+            </div>
+   
+        </div>
+           <div class="wrap">
+        <div class="top-menu">
+            <div class="top-menu-item">
+                <a href="/">Anasayfa</a>
+            </div>
+            <div class="top-menu-item">
+                <a href="/Hakkimizda.aspx">Hakkımızda</a>
+            </div>
+            <div class="top-menu-item">
+                <a href="/Iletisim.aspx">İletişim</a>
+            </div>
+            <div class="top-menu-item">
+                <a href="/Recete.aspx">Reçete</a>
+            </div>
+            <div class="top-menu-item">
+                <a href="/Sepetim.aspx">Sepetim</a>
+            </div>
+               <div class="top-menu-item">
+                <a href="/Siparislerim.aspx">Siparişlerim</a>
+            </div>
+            <div class="top-menu-item">
+                <a href="/Cikis.aspx">Çıkış Yap</a>
+            </div>
+        </div>
+    </div>
+        <div class="clearfix"></div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+         <div class="clearfix"></div>
+        <div class="footer" style="margin:auto;">
+             <div class="wrap">
+            <p style="font-size: 12px; color: #666666; padding: 5px 0; text-align: center;">
+                <b>© Copyright 2017 Tüm Hakları Saklıdır.</b>
+            </p>
+        </div>
+        </div>
+
+        <script src="/js/jquery-1.11.1.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/slides.min.jquery.js"></script>
+        <script src="/js/respond.js"></script>
+        <script src="/js/jquery.flexslider.js"></script>
+
+    </form>
+</body>
+</html>
+

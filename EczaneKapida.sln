@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veritabani", "Veritabani\Veritabani.csproj", "{AEDD7584-BD0B-43D9-86CB-A85FFA816B9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EczaneKapida", "EczaneKapida\EczaneKapida.csproj", "{C88415C5-9F07-4FBF-84FE-B36910D6C451}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YonetimPaneli", "YonetimPaneli\YonetimPaneli.csproj", "{C2EC90CE-33AA-4B54-ADC6-E83863A339BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEDD7584-BD0B-43D9-86CB-A85FFA816B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEDD7584-BD0B-43D9-86CB-A85FFA816B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEDD7584-BD0B-43D9-86CB-A85FFA816B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEDD7584-BD0B-43D9-86CB-A85FFA816B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C88415C5-9F07-4FBF-84FE-B36910D6C451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C88415C5-9F07-4FBF-84FE-B36910D6C451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C88415C5-9F07-4FBF-84FE-B36910D6C451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C88415C5-9F07-4FBF-84FE-B36910D6C451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2EC90CE-33AA-4B54-ADC6-E83863A339BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2EC90CE-33AA-4B54-ADC6-E83863A339BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2EC90CE-33AA-4B54-ADC6-E83863A339BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2EC90CE-33AA-4B54-ADC6-E83863A339BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,92 @@
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\Veritabani\bin\Debug\Veritabani.dll.config
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\Veritabani\bin\Debug\Veritabani.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\Veritabani\bin\Debug\Veritabani.pdb
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\Veritabani\bin\Debug\EntityFramework.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\Veritabani\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\Veritabani\bin\Debug\EntityFramework.xml
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\Veritabani\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\Veritabani\obj\Debug\Veritabani.dll
+C:\Users\Süleyman\Documents\Visual Studio 2015\Projects\EczaneKapida\Veritabani\obj\Debug\Veritabani.pdb
+C:\Users\suleyman\Desktop\EczaneKapida\Veritabani\bin\Debug\Veritabani.dll.config
+C:\Users\suleyman\Desktop\EczaneKapida\Veritabani\bin\Debug\Veritabani.dll
+C:\Users\suleyman\Desktop\EczaneKapida\Veritabani\bin\Debug\Veritabani.pdb
+C:\Users\suleyman\Desktop\EczaneKapida\Veritabani\bin\Debug\EntityFramework.dll
+C:\Users\suleyman\Desktop\EczaneKapida\Veritabani\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\suleyman\Desktop\EczaneKapida\Veritabani\bin\Debug\EntityFramework.xml
+C:\Users\suleyman\Desktop\EczaneKapida\Veritabani\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\suleyman\Desktop\EczaneKapida\Veritabani\obj\Debug\Veritabani.csprojResolveAssemblyReference.cache
+C:\Users\suleyman\Desktop\EczaneKapida\Veritabani\obj\Debug\Veritabani.dll
+C:\Users\suleyman\Desktop\EczaneKapida\Veritabani\obj\Debug\Veritabani.pdb
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\Veritabani\bin\Debug\Veritabani.dll.config
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\Veritabani\bin\Debug\Veritabani.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\Veritabani\bin\Debug\Veritabani.pdb
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\Veritabani\bin\Debug\EntityFramework.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\Veritabani\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\Veritabani\bin\Debug\EntityFramework.xml
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\Veritabani\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\Veritabani\obj\Debug\Veritabani.csprojResolveAssemblyReference.cache
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\Veritabani\obj\Debug\Veritabani.dll
+C:\Users\suleyman\Desktop\SMasaüstü\EczaneKapida\Veritabani\obj\Debug\Veritabani.pdb
+F:\EczaneKapida 10.03.2017\Veritabani\bin\Debug\Veritabani.dll.config
+F:\EczaneKapida 10.03.2017\Veritabani\bin\Debug\Veritabani.dll
+F:\EczaneKapida 10.03.2017\Veritabani\bin\Debug\Veritabani.pdb
+F:\EczaneKapida 10.03.2017\Veritabani\bin\Debug\EntityFramework.dll
+F:\EczaneKapida 10.03.2017\Veritabani\bin\Debug\EntityFramework.SqlServer.dll
+F:\EczaneKapida 10.03.2017\Veritabani\bin\Debug\EntityFramework.xml
+F:\EczaneKapida 10.03.2017\Veritabani\bin\Debug\EntityFramework.SqlServer.xml
+F:\EczaneKapida 10.03.2017\Veritabani\obj\Debug\Veritabani.csprojResolveAssemblyReference.cache
+F:\EczaneKapida 10.03.2017\Veritabani\obj\Debug\Veritabani.dll
+F:\EczaneKapida 10.03.2017\Veritabani\obj\Debug\Veritabani.pdb
+E:\EczaneKapida 10.03.2017\Veritabani\bin\Debug\Veritabani.dll.config
+E:\EczaneKapida 10.03.2017\Veritabani\bin\Debug\Veritabani.dll
+E:\EczaneKapida 10.03.2017\Veritabani\bin\Debug\Veritabani.pdb
+E:\EczaneKapida 10.03.2017\Veritabani\bin\Debug\EntityFramework.dll
+E:\EczaneKapida 10.03.2017\Veritabani\bin\Debug\EntityFramework.SqlServer.dll
+E:\EczaneKapida 10.03.2017\Veritabani\bin\Debug\EntityFramework.xml
+E:\EczaneKapida 10.03.2017\Veritabani\bin\Debug\EntityFramework.SqlServer.xml
+E:\EczaneKapida 10.03.2017\Veritabani\obj\Debug\Veritabani.csprojResolveAssemblyReference.cache
+E:\EczaneKapida 10.03.2017\Veritabani\obj\Debug\Veritabani.dll
+E:\EczaneKapida 10.03.2017\Veritabani\obj\Debug\Veritabani.pdb
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\Veritabani\bin\Debug\Veritabani.dll.config
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\Veritabani\bin\Debug\Veritabani.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\Veritabani\bin\Debug\Veritabani.pdb
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\Veritabani\bin\Debug\EntityFramework.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\Veritabani\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\Veritabani\bin\Debug\EntityFramework.xml
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\Veritabani\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\Veritabani\obj\Debug\Veritabani.dll
+C:\Users\Süleyman\Desktop\USB\EczaneKapida 10.03.2017\Veritabani\obj\Debug\Veritabani.pdb
+F:\USB\EczaneKapida 10.03.2017\Veritabani\bin\Debug\Veritabani.dll.config
+F:\USB\EczaneKapida 10.03.2017\Veritabani\bin\Debug\Veritabani.dll
+F:\USB\EczaneKapida 10.03.2017\Veritabani\bin\Debug\Veritabani.pdb
+F:\USB\EczaneKapida 10.03.2017\Veritabani\bin\Debug\EntityFramework.dll
+F:\USB\EczaneKapida 10.03.2017\Veritabani\bin\Debug\EntityFramework.SqlServer.dll
+F:\USB\EczaneKapida 10.03.2017\Veritabani\bin\Debug\EntityFramework.xml
+F:\USB\EczaneKapida 10.03.2017\Veritabani\bin\Debug\EntityFramework.SqlServer.xml
+F:\USB\EczaneKapida 10.03.2017\Veritabani\obj\Debug\Veritabani.csprojResolveAssemblyReference.cache
+F:\USB\EczaneKapida 10.03.2017\Veritabani\obj\Debug\Veritabani.dll
+F:\USB\EczaneKapida 10.03.2017\Veritabani\obj\Debug\Veritabani.pdb
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\bin\Debug\Veritabani.dll.config
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\bin\Debug\Veritabani.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\bin\Debug\Veritabani.pdb
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\bin\Debug\EntityFramework.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\bin\Debug\EntityFramework.xml
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\obj\Debug\Veritabani.csproj.AssemblyReference.cache
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\obj\Debug\Veritabani.csproj.CoreCompileInputs.cache
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\obj\Debug\Veritabani.csproj.CopyComplete
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\obj\Debug\Veritabani.dll
+E:\Projeler 2\Web\EczaneKapida\EczaneKapida\Veritabani\obj\Debug\Veritabani.pdb
+C:\Users\Gkdnzgnc\Desktop\EczaneKapida\Veritabani\bin\Debug\Veritabani.dll.config
+C:\Users\Gkdnzgnc\Desktop\EczaneKapida\Veritabani\bin\Debug\Veritabani.dll
+C:\Users\Gkdnzgnc\Desktop\EczaneKapida\Veritabani\bin\Debug\Veritabani.pdb
+C:\Users\Gkdnzgnc\Desktop\EczaneKapida\Veritabani\bin\Debug\EntityFramework.dll
+C:\Users\Gkdnzgnc\Desktop\EczaneKapida\Veritabani\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Gkdnzgnc\Desktop\EczaneKapida\Veritabani\bin\Debug\EntityFramework.xml
+C:\Users\Gkdnzgnc\Desktop\EczaneKapida\Veritabani\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Gkdnzgnc\Desktop\EczaneKapida\Veritabani\obj\Debug\Veritabani.csproj.AssemblyReference.cache
+C:\Users\Gkdnzgnc\Desktop\EczaneKapida\Veritabani\obj\Debug\Veritabani.csproj.CoreCompileInputs.cache
+C:\Users\Gkdnzgnc\Desktop\EczaneKapida\Veritabani\obj\Debug\Veritabani.csproj.CopyComplete
+C:\Users\Gkdnzgnc\Desktop\EczaneKapida\Veritabani\obj\Debug\Veritabani.dll
+C:\Users\Gkdnzgnc\Desktop\EczaneKapida\Veritabani\obj\Debug\Veritabani.pdb
